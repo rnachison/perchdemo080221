@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Shared_Solar_System__c</fullName>
+    <fullName>Customer__c</fullName>
     <externalId>false</externalId>
-    <label>Shared Solar System</label>
-    <referenceTo>Shared_Solar_System__c</referenceTo>
+    <label>Customer</label>
+    <referenceTo>Customer__c</referenceTo>
     <relationshipLabel>Subscriptions</relationshipLabel>
     <relationshipName>Subscriptions</relationshipName>
-    <relationshipOrder>0</relationshipOrder>
+    <relationshipOrder>1</relationshipOrder>
     <reparentableMasterDetail>false</reparentableMasterDetail>
     <trackTrending>false</trackTrending>
     <type>MasterDetail</type>

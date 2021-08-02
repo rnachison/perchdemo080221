@@ -149,18 +149,17 @@
     <enableHistory>false</enableHistory>
     <enableLicensing>false</enableLicensing>
     <enableReports>false</enableReports>
-    <enableSearch>false</enableSearch>
+    <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
-    <externalSharingModel>ControlledByParent</externalSharingModel>
-    <label>Subscription</label>
+    <externalSharingModel>Private</externalSharingModel>
+    <label>Customer</label>
     <nameField>
-        <displayFormat>S-{00000000}</displayFormat>
-        <label>Subscription Name</label>
-        <type>AutoNumber</type>
+        <label>Customer Name</label>
+        <type>Text</type>
     </nameField>
-    <pluralLabel>Subscriptions</pluralLabel>
+    <pluralLabel>Customers</pluralLabel>
     <searchLayouts></searchLayouts>
-    <sharingModel>ControlledByParent</sharingModel>
+    <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>
