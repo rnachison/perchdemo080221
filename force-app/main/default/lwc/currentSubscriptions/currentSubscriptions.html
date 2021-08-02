@@ -1,0 +1,17 @@
+<template>
+    <lightning-card title="Current Subscriptions" icon-name="custom:custom3">
+        <div class="slds-m-around_medium">
+            <template if:true={subscriptions}>
+                <lightning-datatable
+                    key-field="id"
+                    data={subscriptions}
+                    columns={columns}
+                    hide-checkbox-column>
+                </lightning-datatable>
+			</template>
+            <template if:false={subscriptions}>
+                <p>No current subscriptions</p>
+			</template>
+        </div>
+      </lightning-card>
+</template>
